@@ -1,19 +1,17 @@
 ![Repo Size](https://img.shields.io/github/repo-size/ngnhthuong/AIO-025-Task)
 ![count](https://img.shields.io/github/languages/count/ngnhthuong/AIO-025-Task)
 
-## AIO - All In One
+## AIO - ALL IN ONE (AI VIET NAM)
 
 <p align="middle">
   
-## CONTRIBUTORS ✨
+### Contributors     
 
 | Avatar | Name               | Student ID |
 | ------ | ------------------ | ---------- |
 |        | Nguyen Nhat Thuong | AIO-025   | 
 
-## TECHNOLOGY STACKS ✨
-
-### PROGRAMMING LANGUAGE ✨
+### Programming languages ✨
 
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 
@@ -31,10 +29,23 @@
 ```
 traffic_sign_detection/
 │
-├── week1/                  # Exercise or project of this web
+├── Exercises/                           # Exercise or project of this web
 │   │ 
-│   └── week1.ipynb         # File notebook
-│
+│   ├── Week1/                           # Folder week1
+│   │   │ 
+│   │   └── week1.ipynb                  # File notebook exercise week 1
+│   │   
+│   ├── Week2/                           # Folder week2
+│   │   │ 
+│   │   └── week2.ipynb                  # File notebook exercise week 2
+│   │
+│   ├── Week3/                           # Folder week3
+│   │   │ 
+│   │   ├── code_wednesday_oop.ipynb     # File notebook class wednesday
+│   │   │ 
+│   │   └── week3.py                     # File python week 3
+│   │......
+│   
 └── README.md               # Describe project
 ```
 
