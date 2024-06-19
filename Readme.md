@@ -27,7 +27,7 @@
 
 ### Structure of Repositories 
 ```
-traffic_sign_detection/
+AIO
 │
 ├── Exercises/                           # Exercise or project of this web
 │   │ 
