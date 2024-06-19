@@ -11,21 +11,21 @@
 | ------ | ------------------ | ---------- |
 |        | Nguyen Nhat Thuong | AIO-025   | 
 
-### Programming languages ✨
+### Programming languages 
 
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 
-### Frameworks and Libraries ✨
+### Frameworks and Libraries 
 
 ![Pytorch](https://img.shields.io/badge/Language-Pytorch-green)
 
-### Technique and Tools ✨
+### Technique and Tools 
 
 - Python notebook
 - Visual studio code
 - Google Colab
 
-### Structure of Repositories ✨
+### Structure of Repositories 
 ```
 traffic_sign_detection/
 │
