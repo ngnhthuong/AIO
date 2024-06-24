@@ -2,8 +2,9 @@
 import math
 import torch
 
-
-# Question 1
+"""
+Question 1
+"""
 class Softmax:
     def __init__(self, data):
         self.data = data
@@ -29,10 +30,11 @@ softmax = Softmax(data)
 print(softmax.softmax())
 print(softmax.softmax_table())
 
-# Question 2
-
-#a Cài đặt các class Student, Doctor, và Teacher theo mô tả trên. Thực hiện phương thức
-# describe() method để in ra tất cả thông tin của các object.
+"""
+Question 2
+a Cài đặt các class Student, Doctor, và Teacher theo mô tả trên. Thực hiện phương thức
+describe() method để in ra tất cả thông tin của các object.
+"""
 
 class Student():
     def __init__(self, name, yob, grade, job="Student"):
@@ -91,6 +93,17 @@ class Ward:
             if person.job.lower() == 'doctor':
                 count += 1
         return count
+    def sort_age(self):
+        self.ward_list.sort(key=lambda x: x.yob)
+        return self.ward_list
+    def count_average_age(self):
+        sum = 0
+        count = 0
+        for person in self.ward_list:
+            if person.job.lower() == 'teacher':
+                sum += person.yob
+                count += 1
+        return sum/count
 
 ward1 = Ward(name = "Ward1")
 
@@ -111,15 +124,15 @@ c Viết count_doctor() method để đếm số lượng doctor trong ward.
 """
 print(f"\nNumber of doctors: {ward1.count_doctor()}")
 
-# # ---------------------------------MENU---------------------------------
+"""
+d Viết sort_age() method để sort mọi người trong ward theo tuổi của họ với thứ tự tăng dần.
+(hint: Có thể sử dụng sort của list hoặc viết thêm function đều được)
+"""
+print("\nSorted by age:")
+ward1.sort_age()
+ward1.describe()
 
-# text_introduction = "Question choice: \n1. Question 1 \n2. Question 2 \n3. Question 3 \n4. Question 4 \n Exit\n"
-
-# choice = int(input(text_introduction))
-# match choice:
-#     case 1:
-#         print("Weekday")
-#     case 2:
-#         print("Weekend")
-#     case _:
-#         print("Invalid choice")
+"""
+e Viết compute_average() method để tính trung bình năm sinh của các teachers trong ward.
+"""
+print(f"\nAverage age of teachers: {ward1.count_average_age()}")
